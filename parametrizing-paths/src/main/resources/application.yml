@@ -1,0 +1,21 @@
+urls:
+  company:
+    root: companies
+    employees:
+      root: employees
+---
+spring:
+  profiles: polish
+urls:
+  company:
+    root: firmy
+    employees:
+      root: pracownicy
+---
+spring:
+  profiles: spanish
+urls:
+  company:
+    root: empresas
+    employees:
+      root: empleadores
